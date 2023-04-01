@@ -207,3 +207,44 @@ header {
     margin-right: 10px;
     max-width: 80px;
 }
+@media (max-width: 991px){
+    header {
+        padding: 20px 50px;
+        flex-direction: column;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    .banners {
+        padding: 100px 50px;
+    }
+    .content {
+        padding: 80px 30px;
+        margin-top: 100px;
+    }
+    .buttons {
+        left: 50px;
+        font-size: 1em;
+    }
+}
+@media (max-width: 600px){
+    header {
+        padding: 20px;
+    }
+    .search {
+        position: relative;
+        width: calc(100% - 20px);
+        height: 40px;
+    }
+    .banners {
+        padding: 220px 20px 100px;
+    }
+    .buttons{
+        left: 20px;
+        font-size: 1em;
+        bottom: 30px;
+    }
+}
